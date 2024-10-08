@@ -12,7 +12,7 @@ class Aluno(Pessoa):
         super().__init__(nome, idade) #Utilizando o construtor d4a classe mãe 
         self._serie = serie # Estamos utilizando utlizando um atributo exclusivo da classe filha
     def estudar(self):
-      print(f"O aluno {self._nome} está estudando na série {self._serie}.")
+      print(f"{self._nome} está estudando na série {self._serie}.")
 
 # Classe filha 2 - Professor
 class Profesor(Pessoa):
